@@ -13,16 +13,68 @@
     <link rel="stylesheet" href="{% static 'css/chat.css' %}">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
 </head>
 
 <body>
+    <style>
+        .name {
+          background-color: #f8f8f800;
+          border: 1px solid #cccccc;
+          padding: 10px;
+          text-align: center;
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+      
+        .name p {
+          margin: 0;
+        }
+      </style>
+      
+      <div class="name">
+        <p>CHATBOT SYSTEM USING E-GOVERANCE</p>
+      </div>
+      <style>
+        .E-GOVERNANCE {
+          position: relative;
+          margin: 40px 0;
+          padding-left: 40px;
+          text-align:left;
+          
+        }
+      
+        .E-GOVERNANCE h2 {
+          position: absolute;
+          left: 0;
+          top: 0;
+          font-size: 28px;
+          margin: 0;
+          
+        }
+      
+        .E-GOVERNANCE p {
+          margin-top: 20px;
+          text-align:left;
+        }
+      </style>
+      
+      <section class="E-GOVERNANCE">
+        <h2 style="padding-left: 3%;">E-GOVERNANCE</h2>
+        
+        <br>
+        
+        <p style="padding-right: 80%;">E-governance (electronic governance) refers to the use of digital technologies and communication tools to improve the efficiency and effectiveness of government operations and service delivery to citizens. This includes the use of online platforms, mobile applications, social media, and other digital channels to enable citizens to interact with government agencies, access information and services, and participate in decision-making processes. E-governance can also help increase transparency, reduce corruption, and promote accountability in government operations.</p>
+      </section>
+      
+
     <!-- CHAT BAR BLOCK -->
     <div class="chat-bar-collapsible">
         <button id="chat-button" type="button" class="collapsible">Chat with Atlas!
             <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
         </button>
-
+    
         <div class="content">
             <div class="full-chat-block">
                 <!-- Message Container -->
@@ -33,7 +85,7 @@
                             <h5 id="chat-timestamp"></h5>
                             <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
                         </div>
-
+                        
                         <!-- User input box -->
                         <div class="chat-bar-input-block">
                             <div id="userInput">
@@ -60,7 +112,7 @@
             </div>
         </div>
         <div class="copyright">
-            copyright &copy; 2023 TEAMATLAS . All rights reserved.
+            copyright &copy; 2023 Team ATLAS . All rights reserved.
           </div>
           
     </div>
