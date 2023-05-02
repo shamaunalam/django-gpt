@@ -2,7 +2,7 @@ from django.shortcuts import render,HttpResponse
 from django.http import JsonResponse
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 model_engine = "gpt-3.5-turbo"
 # Create your views here.
 def home(request):
